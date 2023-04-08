@@ -1,11 +1,11 @@
 // ignore_for_file: unnecessary_const
 
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() {
   runApp(const MyApp());
 }
-
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -27,7 +27,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-//continueing
+//continuing
 
 class _HomePageState extends State<HomePage> {
   //initialize the firebase app
@@ -112,7 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
           const SizedBox(
             height: 88.0,
           ),
-           Container(
+          Container(
             width: double.infinity,
             child: RawMaterialButton(
               fillColor: Color.fromARGB(255, 22, 24, 28),
